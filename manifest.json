@@ -4,7 +4,7 @@
     "version": "2.0",
     "description": "Extensão para automatizar a vizualização de aulas na anhanguera.",
     "permissions": ["scripting", "activeTab"],
-    "host_permissions": ["https://*.anhanguera.com/"],
+    "host_permissions": ["<all_urls>"],
     "background": {
       "service_worker": "background.js"
     },
